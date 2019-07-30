@@ -1,2 +1,2 @@
-# tutorials
-Tutorials and Standard Operating Procedures (SOPs) on data processing and submission to mARS
+# Tutorials
+This repo contains the specific tutorials and Standard Operating Procedures (SOPs) we worked out on how to submit to mARS
