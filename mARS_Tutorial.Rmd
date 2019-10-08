@@ -2,7 +2,7 @@
 title: "Tutorial for submitting data to mARS"
 author: "Maxime Sweetlove"
 date: "october 2019"
-output: html_document
+output: rmarkdown::github_document
 ---
 Note: if you want to get started immediately, go to "about this SOP".
 
@@ -36,7 +36,7 @@ In mARS, only the environmental data and metadata are stored. MARS will not stor
 
 ##About this SOP
 
-This SOP details how you can upload your project meta- and environmental data to the microbial Antarctic Resource System (mARS). As mentioned earlier, the sequence data produced by your project cannot be stored on mARS, but should be submitted to a public repository of INSDC (but see further). Instead, mARS aims to collect meta- and environmental data, which enables different projects to be searched and filtered more easily than on the public nucleotide sequence repositories. To ensure the procedure of gathering all your meta- and environmental data only has to been carried out once, the mARS team has devoted special care to following widely-used standards for biodiversity data, as promoted by the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org) and the [Genomics Standards Consortium](https://press3.mcs.anl.gov/gensc). In this particular case, this SOP is built around two main types of standards, namely [DarwinCore](https://code.google.com/archive/p/gbif-providertoolkit/wikis/DarwinCore.wiki), and the [Minimum Information on any Sequence (MIxS)](http://wiki.gensc.org/index.php?title=MIxS) standard (where the Minimum Information about a MARKer gene Sequence (MiMARKS) has been designated). This ensures maximal interoperability with internationally recognized data and metadata repositories.
+This SOP details how you can upload your project meta- and environmental data to the microbial Antarctic Resource System (mARS). As mentioned earlier, the sequence data produced by your project cannot be stored on mARS, but should be submitted to a public repository of INSDC (but see further). Instead, mARS aims to collect meta- and environmental data, which enables different projects to be searched and filtered more easily than on the public nucleotide sequence repositories. To ensure the procedure of gathering all your meta- and environmental data only has to been carried out once, the mARS team has devoted special care to following widely-used standards for biodiversity data, as promoted by the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org) and the [Genomics Standards Consortium](https://press3.mcs.anl.gov/gensc). In this particular case, this SOP is built around two main types of standards, namely [DarwinCore](https://code.google.com/archive/p/gbif-providertoolkit/wikis/DarwinCore.wiki), and the [Minimum Information on any Sequence (MIxS)](http://wiki.gensc.org/index.php?title=MIxS) standard (where the Minimum Information about a [MARKer gene Sequence (MiMARKS)](http://wiki.gensc.org/index.php?title=MIMARKS) has been designated). This ensures maximal interoperability with internationally recognized data and metadata repositories.
 
 There are two main steps during which meta- and environmental data can be committed to mARS. These roughly correspond with different phases in the life-cycle of a research project, and can be done at different time points.
 
