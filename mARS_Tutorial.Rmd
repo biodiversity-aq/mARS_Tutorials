@@ -147,7 +147,6 @@ By completing the MiMARKS template using standardized ontology terms, your envir
 ![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_2_02.png)
 
 <br />
-<br />
 **Tips and help for filling out the MiMARKS forms:**
 * MiMARKS uses standardized onthologies, which means that for some fields, only a limited number of stringently defined terms can be provided as user input. 
 * For every field, the desired or allowed input can be checked by clicking on the explanation in the "item" column. User content should be provided in the green column ("User Input Template"), while data from different samples can be filled in different columns, one next to the other. 
