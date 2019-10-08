@@ -25,7 +25,7 @@ More information on the vision of mARS can be found [here](http://share.biodiver
 This section shortly clarifies the complex data structure of microbial datasets, on how mARS deals with this.
 
 <br />
-![Fig. 1 a schematic representation of the different types of information (data) typically associated with studies of microbial organisms.](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_0_01.png)
+![Fig. 1 a schematic representation of the different types of information (data) typically associated with studies of microbial organisms.](./Images/Tutorial_0_01.png)
 <br />
 
 Scientific studies that focus on microbial diversity and ecology often generate complicated datasets that are composed of various types of data. These can be categorized into three classes, being 1) sequencing data, 2) measurements on the physical and chemical properties of the environment, and 3) contextual metadata, like the experimental procedures by which the sequencing and environmental data was generated. Each of these three classes of data has their own digital requirements, utilities and limits, but each is also crucial to a correct understanding of the other data classes of a research project.
@@ -61,35 +61,35 @@ To upload your project information, environmental data, and sequence-related inf
 1.	Login to the [Integrated publishing toolkit (IPT)](https://ipt.biodiversity.aq) at biodiversity.aq using your credentials. This tool will guide you step by step through the procedure to publish your metadata, and uses the standardized terms and ontologies of DarwinCore to document your dataset.
 
 <br />
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_1_01.png)
+![](./Images/Tutorial_1_01.png)
 
 <br />
 2.	After logging in, the "Manage Resources" tab will appear at the top of the page. Click on manage resources.
 <br />
 <br />
 
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_1_02.png)
+![](./Images/Tutorial_1_02.png)
 
 <br />
 3.	Use the form at the bottom of the "Manage Resource" page to create a new resource. Provide a unique "shortname" for your dataset. Under "Type" select "Metadata only" or "Other"; at this point, the IPT, which is affiliated with GBIF is not designed to take environmental or molecular diversity information. Click the "Create" button. 
 <br />
 <br />
 
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_1_03.png)
+![](./Images/Tutorial_1_03.png)
 
 <br />
 4.	This will send you to the Resource Management page, where you can Click on the "Edit" button in the Metadata section on the left and fill in the details for the different metadata sections. A detailed instructions are available from [IPT quick reference guide](https://code.google.com/archive/p/gbif-providertoolkit/wikis/IPT2ManualNotes.wiki#Quick_Reference_Guide). Hint: mention your grant number in the "Project Data" section, to allow us to link your resource to relevant projects in the GCMD/AMD.
 <br />
 <br />
 
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_1_04.png)
+![](./Images/Tutorial_1_04.png)
 
 <br />
 Next, the IPT website will guide you step by step through the procedure of documenting and publishing your metadata. Highly detailed instructions are also available from [IPT quick reference guide](https://code.google.com/archive/p/gbif-providertoolkit/wikis/IPT2ManualNotes.wiki#Quick_Reference_Guide). "*" signifies fields that need to be filled out. Don't forget to save the queries regularly, which can be done at the bottom of each page.
 <br />
 <br />
 
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_1_info.png)
+![](./Images/Tutorial_1_info.png)
 
 <br />
  => getting help
@@ -123,7 +123,7 @@ Also see "Section" menu on the right
 <br />
 <br />
 
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_1_05.png)
+![](./Images/Tutorial_1_05.png)
 
 <br />
 2.	By default, your resource's visibility is set to "Private". To allow your resource to become visible on the IPT for all users, click on the "Public" button in the "Visibility" section.
@@ -135,7 +135,7 @@ Also see "Section" menu on the right
 <br />
 <br />
 
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_2_01.png)
+![](./Images/Tutorial_2_01.png)
 
 <br />
 2.	If your sequence data has not yet been deposited on SRA or ENA, then fill in your environmental data details in the [MiMarks Googlesheet](https://docs.google.com/spreadsheets/d/1eeYQUewvIdOj9C932zZ6ghez-1F-U0RnvGnQEXu3p2w/edit?authkey=COanrdEC&authkey=COanrdEC#gid=5) you've created in step 0. The Google Documents" interface can be used for this, and instructions are available from the [MiMarks Googlesheet documentation at RDP](http://rdp.cme.msu.edu/misc/googleSheetsHelp.jsp). Example files are available from the mARS website. The MiMARKS specifications were designed by the Genomic Standards Consortium (GSC) to capture the most fundamental (hence "minimum") information that should accompany a set of sequences ([Yilmaz et al., 2011](http://www.nature.com/nbt/journal/v29/n5/pdf/nbt.1823.pdf)). MiMARKS also allows to document any other ancillary information (e.g. environmental parameters) that are available using internationally standardized units and terminology. There are several slightly different variants of the MiMARKS template, which represent different environments from which your samples can be taken (e.g. soil, lake water, human skin, etc.). These variants are referred to as "packages", and differ in some terms that are unique to the environment it represents. They can be found as individual spreadsheets in the MiMARKS file. Only the spreadsheet of the most appropriate package for your dataset needs to be completed.
@@ -144,7 +144,7 @@ By completing the MiMARKS template using standardized ontology terms, your envir
 <br />
 <br />
 
-![](https://github.com/biodiversity-aq/tutorials/blob/master/Images/Tutorial_2_02.png)
+![](./Images/Tutorial_2_02.png)
 
 <br />
 <br />
