@@ -2,7 +2,7 @@
 title: "Tutorial for submitting data to mARS"
 author: "Maxime Sweetlove"
 date: "october 2019"
-output: html_document
+output: rmarkdown::github_document
 ---
 Note: if you want to get started immediately, go to "about this SOP".
 
