@@ -72,3 +72,31 @@ Part 2: submitting your data
 Go the [SRA submission portal](https://submit.ncbi.nlm.nih.gov/subs/sra).
 
 Click on "new submission" to open the online wizard that will guide you through the process. The number of steps that need to be completed depend on the type of data and if the current submission is related to a past submission. <br /> <br /> ![](./Images/sequenceSubmission_SRA_1.png) <br />
+
+### 2.1 Submitter information
+
+In the first step, basic information about the submitter will need to be provided, such as name, email address, institution,...
+
+### 2.2 Registering a BioProject
+
+Next, you need to specify whether you already registered a BioProject or BioSample. On INSDC, any data submission must be linked to a BioProject, which serves as a name-tag or ID that links all molecular data related to a specific research project or study. When there is no BioProject yet, a new one will be created in the next step.
+
+Before that, however, the wizard will ask you to specify when the data can become publicly visible, that is, immediately after submission, or after a specified embargo period.
+
+To create a BioProject (in the step called "Project info"), a project title and description must be given, as well as some other relevant information. <br /> <br /> ![](./Images/sequenceSubmission_SRA_2.png) <br />
+
+In the "Biosample type" step (which comes after the "Project info" step), using a choice menu, information on the origin of the sample will need to be given, such as what (general) environment it came from, and what molecular methods were used to obtain the data. Admittedly, this part can be a bit confusing, as at first sight there seem to be many options for one type of sample. However, for any shotgun metagenome or marker sequence (amplicon or metabarcode) studies, a best practice is to select the MIxS compliant option, as this allows any data additional to the sequence data to be standardized with other datasets, as well as indexed for web-searches.
+
+Selecting this option will open another sub-menu, where the most suited version of MIxS can be choses, for instance the MiMARKS-based options for marker sequence studies, or MIMAG for shotgun metagenomes. INSDC also requires the best suiting environmental package to be selected.
+
+Note that NCBI checks the content of the MIxS file to be compliant to it's version of the format. This check is very rigorous, and even includes checking if the geographic location names agree with the provided coordinates. If something is found where the submission wizard disagrees with, an error will be thrown and you will not be allowed to continue until everything is resolved (that means: correcting the excel file and re-uploading it). Brace yourself for quite some time of error-resolving, as some issues can revolve around a very specific format of some cells actually cannot be known in advance.
+
+Importantly, selecting the non-MIxS compliant "Metagenome or environmental sample" option in the "Biosample type" step will execute the same checks as soon as MIxS terms are recognized in the uploaded file.
+
+### 2.3 additional metadata
+
+When the MIxS file has been accepted, the "metadata" tab opens up. There, additional metadata about the molecular methods used need to be provided. The easiest way is to open the build-in table editor, copy the sample names from the MIxS file in the first column, and complete the rest of the required fields using the drop-down menus with proposed terms.
+
+### 2.4 uploading the sequence data
+
+Finally, the sequence data can be uploaded. Here, make sure file names correspond to the filenames provided in the metadata tab. A best practice is to upload unassembled, unprocessed raw sequence data (in fastq format), as this leaves all options open for any other researcher to process the data in an alternative way, or use a new methods that were not available at the time. After everything has finished, it can take some days for the record to be manually checked by NCBI and approved.
