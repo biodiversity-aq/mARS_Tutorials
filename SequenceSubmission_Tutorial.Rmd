@@ -2,7 +2,7 @@
 title: "Sequence submission tutorial"
 author: "Maxime Sweetlove"
 date: "october 2019"
-output: rmarkdown::github_document
+output: github_document
 ---
 High throughput sequencing have revolutionized the way we study natural microbial communities, and typically generates large amounts of data at relatively low cost and limited time investment. Even after the data has been thoroughly analyzed and the findings published, it still remains highly valuable to the rest of the scientific community, to e.g. compare results with, use as a reference for species??? geographic occurrence, or help to answer all sorts of questions related to time and space that is not achievable within a single study. In the spirit of transparency and collaborative science, the DNA sequences can be made openly available in the public sequence repositories of the [International Nucleotide Sequence Database Collaborative (INSDC)](http://www.insdc.org), which is the joint venture of the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena), the American [National Center for Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov/nucleotide/) and the Japanese [DNA Databank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp) databases. Since all three databases daily exchange their information, submitting sequences to one database makes them available on all three.
 
